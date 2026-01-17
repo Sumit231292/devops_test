@@ -4,13 +4,13 @@ variable "aws_region" {
 } 
 
 variable "bucket_names" {
-    type = string
+    type        = set(string)
     description = "s3 bucket names for each"
   
 }
 
 variable "count_bucket_names" {
-    type = string
+    type        = list(string)
     description = "count of s3 buckets"
   
 }
