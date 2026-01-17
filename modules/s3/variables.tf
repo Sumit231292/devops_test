@@ -1,4 +1,4 @@
 variable "bucket_names" {
-    type = "string"
+    type = string
   
 }
