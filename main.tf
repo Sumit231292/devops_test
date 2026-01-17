@@ -3,5 +3,5 @@ module "s3_for_each" {
 
   for_each = var.bucket_names
 
-  bucket_name = each.value
+  bucket_names = each.value
 }
