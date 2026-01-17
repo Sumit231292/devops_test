@@ -10,7 +10,7 @@ variable "bucket_names" {
 }
 
 variable "count_bucket_names" {
-    type = sting
+    type = string
     description = "count of s3 buckets"
   
 }
